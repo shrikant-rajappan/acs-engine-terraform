@@ -1,0 +1,35 @@
+{
+  "apiVersion": "vlabs",
+  "properties": {
+    "orchestratorProfile": {
+      "orchestratorType": "Kubernetes"
+    },
+    "masterProfile": {
+      "count": 1,
+      "dnsPrefix": "clusterDNSPrefix",
+      "vmSize": "Standard_D2_v2"
+    },
+    "agentPoolProfiles": [
+      {
+        "name": "linuxpool1",
+        "count": 1,
+        "vmSize": "Standard_D2_v2",
+        "availabilityProfile": "AvailabilitySet"
+      }
+    ],
+    "linuxProfile": {
+      "adminUsername": "shrrajap@publicisgroupe.net",
+      "ssh": {
+        "publicKeys": [
+          {
+            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQFcySFcGCv2IDZP9qlZsK4v2n+QwsuPL+yXdf7m/NhlvPQa6mOHPdX4l611OPc3xjbUspFWHAuQBrTaA97/jdziNKrqiEbqzCz+2Q+3ZATVJqJQ8b2pcnU1IN1PoAaikk8WANPGpaPCwqj8zvoTKCTFgL0TltJF2a42kfWfZIFg0Uy30DktPm7vzUldyYBQhNLzy/maqBJJ6GBddeX+h+YNIyefSdKWSQH+diFrn3RELX2+C/LeEJzSYoAIv9bmVt9YbpIaqA9bymzWJcp12NUOAYdxVxIXNK+ZR8c07thos8uzDjO2YmRgln6cgM5+wvuVYpbNO2Q399+hhazInF shrrajap@WKWIN0464695"
+	  }
+        ]
+      }
+    },
+    "servicePrincipalProfile": {
+      "clientId": "7e4da571-374f-4073-8d34-a8b9dd05faad",
+      "secret": "ba18e81d-3f61-424d-9662-5c0206e6a33c"
+    }
+  }
+}
