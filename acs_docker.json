@@ -18,11 +18,11 @@
       }
     ],
     "linuxProfile": {
-      "adminUsername": "shrrajap@publicisgroupe.net",
+      "adminUsername": "azureuser",
       "ssh": {
         "publicKeys": [
           {
-            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQFcySFcGCv2IDZP9qlZsK4v2n+QwsuPL+yXdf7m/NhlvPQa6mOHPdX4l611OPc3xjbUspFWHAuQBrTaA97/jdziNKrqiEbqzCz+2Q+3ZATVJqJQ8b2pcnU1IN1PoAaikk8WANPGpaPCwqj8zvoTKCTFgL0TltJF2a42kfWfZIFg0Uy30DktPm7vzUldyYBQhNLzy/maqBJJ6GBddeX+h+YNIyefSdKWSQH+diFrn3RELX2+C/LeEJzSYoAIv9bmVt9YbpIaqA9bymzWJcp12NUOAYdxVxIXNK+ZR8c07thos8uzDjO2YmRgln6cgM5+wvuVYpbNO2Q399+hhazInF shrrajap@WKWIN0464695"
+            "keyData": "sshpublickey"
 	  }
         ]
       }
